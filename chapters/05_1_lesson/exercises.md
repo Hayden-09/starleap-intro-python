@@ -7,7 +7,10 @@ The time module provides a function, also named time, that returns the current G
 >>> time.time()
 1437746094.5735958
 ```
-Write a script that reads the current time and converts it to a time of day in hours, minutes, and seconds, plus the number of days since the epoch.
+Write a function named *time_since_epoch* that reads the current time and converts it to a time of day in hours, minutes, and seconds, plus the number of days since the epoch and prints "It's been __ days, __ hours, __ minutes, __ seconds since the epoch."
+Hints:
+ - Review [5.1 Floor division and modulus operators](https://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec55)
+ - It might be helpful to use variables like sec_per_day to help calculate and store the number of seconds in a day, etc.
 
 ## Exercise 2  
 Fermat’s Last Theorem says that there are no positive integers a, b, and c such that
@@ -27,7 +30,9 @@ If you are given three sticks, you may or may not be able to arrange them in a t
 If any of the three lengths is greater than the sum of the other two, then you cannot form a triangle. Otherwise, you can. (If the sum of two lengths equals the third, they form what is called a “degenerate” triangle.)
 Write a function named is_triangle that takes three integers as arguments, and that prints either “Yes” or “No”, depending on whether you can or cannot form a triangle from sticks with the given lengths.
 Write a function that prompts the user to input three stick lengths, converts them to integers, and uses is_triangle to check whether sticks with the given lengths can form a triangle.
-Exercise 4   What is the output of the following program? Draw a stack diagram that shows the state of the program when it prints the result.
+
+## Exercise 4   
+What is the output of the following program? Draw a stack diagram that shows the state of the program when it prints the result.
 ```
 def recurse(n, s):
     if n == 0:
@@ -37,9 +42,19 @@ def recurse(n, s):
 
 recurse(3, 0)
 ```
+Hint: Use triple quotes in python to enclose long sections of text to type this answer.
+Ex:
+```
+print("********** Ch 5 Exercise 4 **********")
+
+answer = """
+This is my big, typed answer to Exercise 4.
+It can span multiple lines, and the python interpreter does not try to execute it because it is a big string.
+"""
+print(answer)
+```
 What would happen if you called this function like this: recurse(-1, 0)?
 Write a docstring that explains everything someone would need to know in order to use this function (and nothing else).
-The following exercises use the turtle module, described in Chapter 4:
 
 ## Exercises 5-6
-* Skip for now.  We will do these after going back and covering Chapter 4. *
+* Skip for now.  We will do these after going back and covering Chapter 4.

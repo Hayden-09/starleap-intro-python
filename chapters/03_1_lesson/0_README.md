@@ -9,4 +9,5 @@
   - **File**: `local_variables.py`
 
 ## Exercises
-  - **File**: `exercises.md`
+  - **Link**: [Instructions - exercises.md](./exercises.md)
+  - **Link**: [Template - exercises.py](./exercises.py)
