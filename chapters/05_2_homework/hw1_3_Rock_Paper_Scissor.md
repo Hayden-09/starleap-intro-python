@@ -10,9 +10,13 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
    |----------|----------|--------------|
    | Rock     | Rock     | Tie          |
    | Rock     | Scissors | Player 1     |
-   | &nbsp; | | |
-   | &nbsp; | | |
-   | &nbsp; | | |
+   | Rock     | Paper    | Player 2     |
+   | Paper    | Rock     | Player 1     |
+   | Paper    | Scissors | Player 2     |
+   | Paper    | Paper    | Tie          |
+   | Scissors | Rock     | Player 2     |
+   | Scissors | Scissors | Tie          |
+   | Scissors | Paper    | Player 1     |
 
 2. **Create the Program**:
    - Create a new file in the `05_2_homework` directory named `rps.py` that will generate the outcome of the rock, paper, scissors game.
