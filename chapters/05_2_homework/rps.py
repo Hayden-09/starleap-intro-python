@@ -1,5 +1,5 @@
-player1 = input('Player 1, enter your choice: rock, paper, or scissors ')
-player2 = input('Player 2, enter your choice: rock, paper, or scissors ')
+player1 = input('Player 1, enter your choice: rock, paper, or scissors: ')
+player2 = input('Player 2, enter your choice: rock, paper, or scissors: ')
 if (player1 == 'rock' and 
       player2 == 'scissors'):
       print('Player 1 wins.')
