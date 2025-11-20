@@ -134,7 +134,7 @@ class Player:
 
 	def get_attack_hitbox(self):
 		# short rectangle in front of player
-		w = 40
+		w = 80
 		h = 22
 		if self.facing >= 0:
 			ax = int(self.x + self.width - 6)
